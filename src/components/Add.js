@@ -16,7 +16,7 @@ const Add = () => {
         let uniquiId = ids.slice(0,8);
         let a = name ,
         b = email;
-        Employee.push({id : uniquiId , Name : a , Email : b});
+        Employee.push({id: uniquiId , Name : a , Email : b});
         
         history("/");
     }
